@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Mid -->
+    <TextView
+        android:id="@+id/mid_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <!-- Arrow icon -->
+    <ImageView
+        android:id="@+id/arrow_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="8dp"
+        android:src="@drawable/arrow_down" />
+
+    <!-- Tid -->
+    <TextView
+        android:id="@+id/tid_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mid_text"
+        android:layout_marginStart="8dp"
+
+        android:layout_marginEnd="8dp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <!-- amount -->
+    <TextView
+        android:id="@+id/amount_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tid_text"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+
+    <!-- narrations -->
+    <TextView
+        android:id="@+id/narration_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/amount_text"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:visibility="gone" />
+</RelativeLayout>
